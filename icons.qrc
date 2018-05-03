@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>bad.svg</file>
+        <file>good.svg</file>
+        <file>na.svg</file>
+    </qresource>
+</RCC>
