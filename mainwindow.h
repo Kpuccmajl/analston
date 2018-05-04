@@ -3,15 +3,6 @@
 
 #include <QMainWindow>
 
-struct Word
-{
-    Word(QString w, int we, int t) : word(w), weight(we), tone(t) {}
-
-    QString word;
-    int weight;
-    int tone;
-};
-
 namespace Ui {
 class MainWindow;
 }
@@ -29,10 +20,6 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-
-    void loadData();
-
-    QList<Word> words;
 };
 
 #endif // MAINWINDOW_H
