@@ -20,6 +20,8 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+
+    QStringList normalizedText();
 };
 
 #endif // MAINWINDOW_H
